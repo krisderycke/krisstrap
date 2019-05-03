@@ -1,0 +1,24 @@
+.btn-black {
+    background-color: black !important;
+    color: white !important;
+    font-style: italic !important;
+    border:1px solid transparent;
+    border-radius:20px;
+} 
+.dropdown-item {
+    color: pink;
+    background-color: black;
+    font-style: inherit;
+
+}
+
+.dropdown-menu {
+    font-style: italic;
+    border-radius: 20px;
+    background-color:black;
+}
+
+.dropdown-item {
+    width:90% !important;
+    text-align: center;
+}
