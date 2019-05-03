@@ -1,0 +1,14 @@
+.avatar {
+    border-radius: 50%; /* avatars are always round*/
+    width: 50px;
+}
+
+.avatar-small {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.avatar-large {
+    border-radius: 50%;
+    width: 70px;
+}
