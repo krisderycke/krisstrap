@@ -22,3 +22,34 @@ h1,h2,h3 {
 
 body, div {padding: 1.5rem;
 }
+
+section {
+    margin:20px;
+    padding:20px;
+}
+
+/* navbar */
+.navbarke {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top:0;
+    border-radius:5px;
+    width:100%;
+    position: relative;
+}
+
+li {
+    float: left;
+    border-right-style:inset;
+    border-radius:0px 5px 5px 0px;
+    border-color:green;    
+  }
+
+  .active {
+	background-color: #000080;
+}
+  
+
