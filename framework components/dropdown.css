@@ -1,4 +1,4 @@
-.btn-black {
+ .btn-black {
     background-color: black !important;
     color: white !important;
     font-style: italic !important;
@@ -22,3 +22,16 @@
     width:90% !important;
     text-align: center;
 }
+/* dropdown with avatar */
+.dropdown-profile .dropdown-menu {
+    font-style: bold;
+    border-radius: 20px;
+    background-color:white;
+}
+
+.dropdown-profile .dropdown-item {
+    color: rgb(43, 131, 65);
+    background-color: white !important;
+    font-style: inherit;
+}
+
