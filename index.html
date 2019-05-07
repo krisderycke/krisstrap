@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
   <title>Own Framework</title>
-  <style> div {padding: 1rem;}</style>
+  <style></style>
 </head>
 <body>
 
@@ -30,7 +30,7 @@
 
 
 
-      <h2>Dropdowns</h2>
+      <div class="drop"><h2>Dropdowns:</h2>
       <div class="dropdown">
           <button class="btn-black" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown button
@@ -44,7 +44,7 @@
        </div>
 
         <div class="dropdown-profile">
-          <img src="http://placehold.it/50x50" alt="" class="avatar" id="navbar-menu" data-toggle="dropdown">
+          <img src="images/profile.jpg" alt="" class="avatar" id="navbar-menu" data-toggle="dropdown">
 
 
         <ul class="dropdown-menu" aria-labelledby="navbar-menu">
@@ -53,11 +53,39 @@
           <a class="dropdown-item" href="#">Log out</a>
       </ul>
      </div>
-     
+    </div>
+
+     <h2>Responsive cards:</h2><!-- first design cards (in comments below this grid), THEN make framework frid and inject the cards-->
+     <div class="row"> <!--bootsrap resp. grid-->
+      <div class="col-xs-12 col-sm-4"><!--full screen on mobile, 4 cards on larger screen-->
+        <div class="cards">
+            <span class="card-category">Category</span>
+            <div class="card-description"><h2>Info here</h2></div>
+            <img src="images/profile.jpg" alt="" class="avatar-small card-avatar">
+          </div>
+      </div> 
+      <div class="col-xs-12 col-sm-4">
+          <div class="cards">
+              <span class="card-category">Category</span>
+              <div class="card-description"><h2>Info here</h2></div>
+              <img src="images/profile.jpg" alt="" class="avatar-small card-avatar">
+            </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+          <div class="cards">
+              <span class="card-category">Category</span>
+              <div class="card-description"><h2>Info here</h2></div>
+              <img src="images/profile.jpg" alt="" class="avatar-small card-avatar">
+            </div>
+      </div>
 
 
-
-
+     </div>
+      <!-- <div class="cards">
+        <span class="card-category">Category</span>
+        <div class="card-description"><h2>Info here</h2></div>
+        <img src="images/profile.jpg" alt="" class="avatar-small card-avatar">
+      </div> -->
 
   </div> <!-- ends wrapping container-->
       <!-- Optional JavaScript -->

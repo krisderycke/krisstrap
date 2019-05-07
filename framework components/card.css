@@ -1,0 +1,25 @@
+.cards {
+    height:150px;
+    color:white;
+    background: url(https://picsum.photos/id/237/300/300);
+    background-size: cover;
+    position: relative; /* pins the card's position*/
+}
+
+.card-category{
+    position:absolute; /* places the div insde the card, and you can position it where you want*/
+    top:10px;
+    left:10px;
+}
+
+.card-description{
+    position:absolute;
+    bottom: 10px;
+    left:10px;
+}
+
+.card-avatar{
+    position:absolute;
+    right:10px;
+    top:10px;
+}

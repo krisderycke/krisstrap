@@ -19,3 +19,6 @@ body {
 h1,h2,h3 {
     font-family: 'Montserrat Alternates', "sans-serif";
 }
+
+body, div {padding: 1.5rem;
+}
