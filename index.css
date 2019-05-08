@@ -18,6 +18,11 @@ body {
 }
 h1,h2,h3 {
     font-family: 'Montserrat Alternates', "sans-serif";
+    padding: 24px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
 }
 
 body, div {padding: 1.5rem;
@@ -34,22 +39,34 @@ section {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(51, 51, 51);
     top:0;
     border-radius:5px;
     width:100%;
-    position: relative;
+    position: fixed;
+    z-index: 1000;
 }
+.navbarke a {
+    color:white;
+}
+
 
 li {
     float: left;
     border-right-style:inset;
     border-radius:0px 5px 5px 0px;
-    border-color:green;    
+    border-color:#807100;    
+  }
+ 
+  .navbarke a:hover{
+      color:red;
   }
 
-  .active {
-	background-color: #000080;
-}
+ .navbarke a:focus {
+      color: green;
+  }
+
+
+ 
   
 
