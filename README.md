@@ -8,7 +8,7 @@ use the appropriate classes.
 
 ## Avatar desing
 
-.avatar (.small --> .large)
+.avatar/.avatar-small/.avatar-large
 
 - usefull for choosing different profile picture sizes.
 - Straight link to personal profile
