@@ -1,6 +1,9 @@
 # krisstrap
 https://krisderycke.github.io/krisstrap/
 
+clone repo (containing the framework components) onto your local,
+use the appropriate classes. 
+
 
 
 ## Avatar desing
